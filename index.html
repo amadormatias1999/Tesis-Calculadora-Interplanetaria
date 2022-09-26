@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peso en otro planeta</title>
+    <link rel="stylesheet" href="archivo.css">
+</head>
+<body>
+    <header>
+            <h1> Calculadora Interplanetaria</h1>
+    </header>
+       
+       
+    <main class="caja-principal">
+    
+        <section class="caja2">
+              <img src="img/marte.png"> 
+
+                <p> <span>  Marte
+                </span> es un mundo polvoriento, frío y desértico con una atmósfera muy delgada. Existe una fuerte evidencia de que Marte era, hace miles de millones de años, más húmedo y cálido, con una atmósfera más espesa. </p>
+        </section>
+             
+        <section class="caja3">
+    
+                <div>
+                    <h2> ¿Sabías que si te subieras a una balanza en otro planeta, obtendrías un peso distinto que en la Tierra? </h2>
+                    <p> Esto es porque los planetas tienen distintos pesos y, por tanto, la fuerza de la gravedad es distinta en cada uno de ellos </p>
+                </div>
+                <img src="img/astronauta.png">
+        </section>
+    
+        <section class="formulario">
+    
+            <h3> ¿Quieres saber cuanto pesas en otro planeta? <br> Ingresa tus datos </h3>
+    
+                <form class="campos-formulario">
+                        <label> Ingresa tu Peso en KG </label>
+                        <input type="number" placeholder="Pon tu peso en KG" id="peso-usuario">
+    
+                        <label> Selecciona el Planeta</LAbel>
+                        <select required id="planetas">
+                            <option disabled selected value=""> </option>
+                            <option value="11.15"> Neptuno</option>
+                            <option value="3.7"> Marte </option>
+                            <option value="24.7"> Jupiter</option>
+                            <option value="10.44"> Saturno </option>
+                            <option value="8.87"> Venus</option>
+                            <option value="3.7"> Mercurio</option>
+                            <option value="8.87"> Urano</option>   
+                        </select>
+                        
+                        <input class="boton" type="button" value= "Calcular" id="calcular-peso">
+                        <p id="resultado"></p>
+                 </form>
+                      
+            </section>
+                
+    </main> 
+    
+    <script src="archivo.js"></script>
+    
+</body>
+</html>
